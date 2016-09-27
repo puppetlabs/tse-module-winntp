@@ -1,10 +1,3 @@
-# https://technet.microsoft.com/en-us/library/cc773263.aspx
-# https://support.microsoft.com/en-us/kb/939322
-# http://www.bytefusion.com/products/ntm/pts/3_3modesofoperation.htm
-# https://nchrissos.wordpress.com/2013/04/26/configuring-time-on-windows-2008-r2-servers/
-# https://blogs.msdn.microsoft.com/w32time/2008/02/26/configuring-the-time-service-ntpserver-and-specialpollinterval/
-# http://www.pctools.com/guides/registry/detail/934/
-# http://forum.psquared.net/PrintTopic7643.aspx
 class winntp (
   Array[String] $servers            = ['time.windows.com'],
   Integer $special_poll_interval    = 900, # 15 minutes
