@@ -1,12 +1,12 @@
 {
-  "name": "jpadams-winntp",
+  "name": "tse-winntp",
   "version": "1.0.0",
-  "author": "jpadams",
+  "author": "Puppet TSE Team",
   "summary": "Manage NTP on Windows servers.",
   "license": "Apache-2.0",
-  "source": "https://github.com/jpadams/winntp",
-  "project_page": "https://github.com/jpadams/winntp",
-  "issues_url": "https://github.com/jpadams/winntp/issues",
+  "source": "https://github.com/puppetlabs/tse-module-winntp",
+  "project_page": "https://github.com/puppetlabs/tse-module-winntp",
+  "issues_url": "https://github.com/puppetlabs/tse-module-winntp/issues",
   "dependencies": [
     {"name":"puppetlabs-stdlib","version_requirement":">= 4.0.0"},
     {"name":"puppetlabs-registry","version_requirement":">= 1.1.3"}
