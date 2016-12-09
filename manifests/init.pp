@@ -34,7 +34,7 @@ class winntp (
     purge_values => $purge_unmanaged_servers,
   }
 
-  # create a new numbered registry value for each ntp server (1 to $servers.length) 
+  # create a new numbered registry value for each ntp server (1 to $servers.length)
   $servers.each |$index, $srv| {
     $i = $index + 1
     registry_value { "32:HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\DateTime\\Servers\\${i}":
